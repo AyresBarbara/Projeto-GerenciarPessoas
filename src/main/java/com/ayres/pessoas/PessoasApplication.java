@@ -1,17 +1,8 @@
 package com.ayres.pessoas;
 
-import java.time.LocalDate;
-import java.util.List;
-
-import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.Bean;
 
-import com.ayres.pessoas.model.Endereco;
-import com.ayres.pessoas.model.PessoaModel;
-import com.ayres.pessoas.repository.EnderecoRepository;
-import com.ayres.pessoas.repository.PessoaRepository;
 
 @SpringBootApplication
 public class PessoasApplication {

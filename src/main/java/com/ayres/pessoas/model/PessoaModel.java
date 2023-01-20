@@ -3,6 +3,7 @@ package com.ayres.pessoas.model;
 import java.time.LocalDate;
 import java.util.List;
 
+import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -21,6 +22,7 @@ public class PessoaModel {
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
 	
+	@Schema(example = "email@email.com.br")
 	private String nome;
 	
 	private LocalDate dataNascimento;

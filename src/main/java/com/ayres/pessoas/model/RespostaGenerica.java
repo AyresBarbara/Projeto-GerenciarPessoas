@@ -1,8 +1,5 @@
 package com.ayres.pessoas.model;
 
-import org.springframework.http.HttpStatusCode;
-import org.springframework.web.server.ResponseStatusException;
-
 public class RespostaGenerica{
 
 	private String codigoRetorno;
